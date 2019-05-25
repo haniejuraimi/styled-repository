@@ -1,74 +1,89 @@
 body {
-    color:#6e9be5;
-    font-family:'Courgette', cursive;
-    background-color:#4f5154;
+    color: #333;
+    font-family: 'Lato', sans-serif;
     margin: 0;
-   
 }
 
-h1, h2 {
-    text-transform: uppercase
-}
-
-#mainSection{
-    height: 100vh;
-    text-align: center;
-    padding-top: 5%;
-    font-size: 1.5em;
-}
-
-#mainSection p {
-    font-weight: 100;
-}
-
-img {
-    border-radius: 30px;
-}
-
-#mainSection2{
-
-    text-align: center;
-    padding: 20px
-}
-
-ol{
- list-style-position: inside;
-}
-
-#mainSection3{
-
-    text-align: center;
-    background-color: rgb(45, 45, 134);
-    padding: 10px;
-}
-
-#mainSection3 li{
-    display:inline;
-
-}
-
-#mainSection3 ul{
-
-    margin: 0;
-    padding: 0;
- 
-}
-
-#mainSection3 p{
-
+h1, h2, h3 {
     text-transform: uppercase;
 }
 
-.heading1{
-
-    background-color: black;
-    padding: 10px;
-    box-shadow: 3px 5px;
+h1 .header {
+    background-color: #333;
+    color: white;
+    padding: 5px 15px;
+    box-shadow: 1px 3px 5px 1px grey;
 }
 
-.heading2{
+a {
+    text-decoration: none;
+}
 
-    background-color: black;
-    padding: 10px;
-    box-shadow: 3px 5px #6e9be5;
+a:hover { 
+    font-size: 1.2em;
+    transform: scale(1.5, 1.5);
+}
+
+div {
+    padding: 20px;
+    text-align: center;
+}
+
+#main {
+    height: 100vh;
+    text-align: center;
+    padding-top: 20vh;
+    background-color: rgb(215, 217, 250);
+}
+
+.subtext {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+hr { 
+    display: none;
+}
+
+#codehero { 
+    padding-top: 10vh;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    height: 70vh;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(215, 217, 250);
+    padding: 5px 15px;
+    box-shadow: 1px 3px 5px 1px grey;
+}
+
+#social {
+    background-color: #333;
+}
+
+#social a {
+    color:rgb(215, 217, 250);
+}
+
+#social li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+ul {
+    padding-top: 20px;
+    margin-left: -40px;
+}
+
+img {
+    border-radius: 15px;
+    box-shadow: 1px 3px 5px 1px grey;
 }
